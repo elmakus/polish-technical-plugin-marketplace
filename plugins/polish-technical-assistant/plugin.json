@@ -1,0 +1,32 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "polish-technical-assistant",
+  "version": "1.0.0",
+  "description": "Concise, practical technical assistance in Polish, with a structured troubleshooting workflow.",
+  "author": {
+    "name": "Elmakus"
+  },
+  "keywords": [
+    "polish",
+    "technical-support",
+    "troubleshooting",
+    "home-assistant",
+    "docker",
+    "node-red",
+    "yaml"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Polish Technical Assistant",
+        "shortDescription": "Zwięzła i praktyczna pomoc techniczna po polsku.",
+        "longDescription": "Pomaga w rozwiązywaniu problemów technicznych po polsku, preferując najprostsze i najbezpieczniejsze rozwiązania oraz jasno oznaczając niepewność.",
+        "developerName": "Elmakus",
+        "category": "Productivity",
+        "defaultPrompt": [
+          "Pomóż mi rozwiązać ten problem techniczny po polsku."
+        ]
+      }
+    }
+  }
+}
